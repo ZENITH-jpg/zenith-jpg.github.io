@@ -33,8 +33,8 @@ export default function SubclassPage() {
               {"Two principles of OOP, polymorphism and inheritance are applied in Java through the use of subclasses. Inheritance means that classes " +
                 "can inherit the methods and properties of other classes. This is exactly what a subclass does. Polymorphism " +
                 "means \"many forms\". In OOP, this means that subclasses can override methods in its superclass, " +
-                "allowing one method two do preform different tasks depending if it is called by a subclass or superclass. " +
-                "An object of a subclass can also be assigned to a variable of its superclass"}
+                "allowing one method to preform different tasks depending if it is called by a subclass or superclass. " +
+                "An object of a subclass can also be assigned to a variable of its superclass."}
             </h2>
           </div>
         </motion.div>
@@ -95,8 +95,8 @@ export default function SubclassPage() {
           <div className={"inline-block text-center justify-center"}>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
             <h2 style={{lineHeight: "default mt-10 px-5 py-5"}} className={subtitle()}>
-              To follow the principle of polymorphism, methods the superclass can be overridden. To do this, we just write a
-              method with the same declaration as the method we want to override. To call methods from the super class, we use
+              To follow the principle of polymorphism, methods in the superclass can be overridden. To do this, we just write a
+              method with the same declaration as the method we want to override. To call methods from the superclass, we use
               the super keyword (super.method()). The constructor can be called in the subclass constructor by just calling super().
             </h2>
           </div>

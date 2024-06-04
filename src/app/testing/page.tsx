@@ -126,13 +126,13 @@ export default function TestingPage() {
           <div className={"inline-block text-center justify-center"}>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
             <h2 style={{lineHeight: "default mt-10 px-5 py-5"}} className={subtitle()}>
-              {"Assertions state the expected behavior of a segement of code, and check if that expect behavior happens. If " +
+              {"Assertions state the expected behavior of a segment of code, and checks if the expected behavior happens. If " +
                "it doesn't happen, then JUnit will inform the user of the fault that happened. We use assertions in our test cases " +
                 "to verify that our methods for our classes are preforming as expected. Assertions are written in code as \"" +
-                "Assert.assertionName()\" where assetionName is one of the various assert methods. The most statements " +
+                "Assert.assertionName()\" where assetionName is one of the various assert methods. The most common statements " +
                 "are Assert.assertEquals(expected, actual), Assert.assertTrue(bool), and Assert.assetFalse(bool). Each of these statements pass " +
                 "if their respective names are true. If otherwise, the entire test case fails. This is why it is important to make " +
-                "multiple testing methods to each each individual method. It helps narrow down where mistakes exist."}
+                "multiple testing methods for each individual method. It helps narrow down where mistakes exist."}
 
             </h2>
             <Link href={"https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html"} isExternal className={"text-lg lg:text-xl block"}>Find a full list of assertions here.</Link>

@@ -42,7 +42,7 @@ export default function SortingPage() {
                 However, to put these objects in order, we need to preform swaps on these items. This is what a sorting
                 algorithm does.
                 Usually, in programing, we sort items using some numeric value. For example, one of the most common
-                uses for sorting is to put integers in ascending order. For the examples bellow we will sort integer
+                uses for sorting is to put integers in ascending order. For the examples below we will sort integer
                 arrays in
                 ascending order. The preconditions is that we are given an integer array filled with integer values and
                 the postconditions are that the array should contain all the same elements in the original array, just in

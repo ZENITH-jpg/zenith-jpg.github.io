@@ -63,9 +63,9 @@ export default function UMLPage() {
               <h2 style={{lineHeight: "normal"}} className={subtitle()}>
                 {"To make a class in UML, you first need a box with 3 sections. On the top most box, the name of the class " +
                  "should be written down. The middle box should contain the fields of the class, following a \"+fieldName: ObjectType\" " +
-                 "format. The the last box, methods should be put. Mutators and accessor do not need to be inserted here as they " +
+                 "format. The the last box, methods should be put. Mutators and accessors do not need to be inserted here as they " +
                   "are assumed to exist. The methods should be written in the following format: \"+methodName(paramsTypes): returnType\" " +
-                  "If you have a void method, it is not require to have the return type section filled out. See the example on the right."}
+                  "If you have a void method, it is not required to have the return type section filled out. See the example on the right."}
               </h2>
             </div>
             <Image
@@ -127,7 +127,7 @@ export default function UMLPage() {
                 <TableCell>
                   Represents that one of the classes is used in either the fields or methods of the other class. That class
                   cannot exist without the other.
-                  The dark diamond should point to the class which composed by the other.
+                  The dark diamond should point to the class which is composed by the other.
                 </TableCell>
               </TableRow>
               <TableRow key="3">

@@ -36,7 +36,7 @@ export default function AbstractPage() {
                 "The OOP principle of encapsulation states that data should be kept abstracted from the user. Java implements " +
                 "this principle through abstract data classes. Through these data classes, Java controls what can be accessed " +
                 "from where in the application. Abstract data classes define new data types. For example, a new data type could " +
-                "be an Animal, which has data in form what what type of animal it is, how old it is, and other characteristics. " +
+                "be an Animal, which has data in form of what type of animal it is, how old it is, and other characteristics. " +
                 "Using fields and methods, we give these abstract data classes these properties and functions"}
             </h2>
           </div>
@@ -166,7 +166,7 @@ export default function AbstractPage() {
             <h2 style={{lineHeight: "default mt-10 px-5 py-5"}} className={subtitle()}>
               Accessor levels implement in the principle of encapsulation into abstract data classes. Using keywords,
               Java
-              controls what field and methods are accessible and where they are accessible. Below are a list of keywords
+              controls what fields and methods are accessible and where they are accessible. Below are a list of keywords
               and
               a rewritten version of Point with proper keywords.
             </h2>
