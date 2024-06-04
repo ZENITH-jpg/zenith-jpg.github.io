@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "exports", // lightweight but no dynamic routes & api support
-    // output: "standalone", // bulkier but supports dynamic routes & api
-}
+    output: "export"
+};
 
-module.exports = nextConfig
+export default nextConfig;
