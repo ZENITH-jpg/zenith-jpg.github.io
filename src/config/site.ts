@@ -32,9 +32,5 @@ export const siteConfig = {
             label: "Testing",
             href: "/testing",
         },
-        {
-            label: "Girlfriend",
-            href: "/girlfriend",
-        },
     ],
 };
